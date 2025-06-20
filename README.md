@@ -1,6 +1,4 @@
 # face_authentication_project
-Face Recognition-Based Attendance System (Flask Web App)
-
 
 This project is a Flask-powered web application designed to manage attendance using facial recognition. It allows users to mark attendance by scanning their face through a webcam, view daily attendance records, and register new users.
 
