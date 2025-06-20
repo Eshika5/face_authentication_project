@@ -46,9 +46,8 @@ cd attendance-using-face-recognition
 Make sure you have **Python 3.x** installed, then install the dependencies:
 
 ```bash
-
-```
 pip install -r requirements.txt
+```
 **3.Launch the Application**
 ```bash
 
