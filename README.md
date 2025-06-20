@@ -1,26 +1,31 @@
 # face_authentication_project
 Face Recognition-Based Attendance System (Flask Web App)
+
+
 This project is a Flask-powered web application designed to manage attendance using facial recognition. It allows users to mark attendance by scanning their face through a webcam, view daily attendance records, and register new users.
 
-##Key Features
-Face Recognition for Attendance:
+
+---
+
+## Key Features
+**Face Recognition for Attendance:**
 Users can mark their attendance by simply scanning their face using the webcam.
 
-Automated Attendance Logs:
+**Automated Attendance Logs:**
 Daily attendance is recorded and saved automatically in CSV format.
 
-User Registration with Face Capture:
+**User Registration with Face Capture:**
 Add new users by capturing their facial data via webcam.
 
-KNN Model Training:
+**KNN Model Training:**
 The app trains a K-Nearest Neighbors (KNN) model automatically using captured face images.
 
-Intuitive Web Interface:
+**Intuitive Web Interface:**
 A user-friendly interface to manage attendance, view records, and register users.
 
-##📁 Project Directory Overview
+## 📁 Project Directory Overview
 csharp
-Copy code
+
 attendance-using-face-recognition/
 │
 ├── app.py                          # Main Flask application
@@ -32,27 +37,29 @@ attendance-using-face-recognition/
 │   └── face_recognition_model.pkl # Trained KNN model
 ├── Attendance/                     # Daily attendance CSV logs
 └── requirements.txt                # Python dependencies
-##⚙️ Setup Instructions
-1. Clone the Repository
-bash
-Copy code
+## ⚙️ Setup Instructions
+1. **Clone the Repository**
+   
+```bash
 git clone https://github.com/your-username/attendance-using-face-recognition.git
 cd attendance-using-face-recognition
-2. Install Required Packages
+
+2. **Install Required Packages**
+
 Make sure you have Python 3.x installed, then install the dependencies:
 
 bash
-Copy code
+
 pip install -r requirements.txt
-3. Launch the Application
+3.**Launch the Application**
 bash
-Copy code
+
 python app.py
 4. Access the Web Interface
 Open your browser and navigate to:
 
 cpp
-Copy code
+
 http://127.0.0.1:5000
  ##How to Use
 1. Take Attendance
@@ -73,6 +80,7 @@ Enter your Name and ID under "Add New User."
 Capture face images using your webcam.
 
 The system will retrain the recognition model automatically.
+
 
  ##Requirements
 Make sure the following are installed:
