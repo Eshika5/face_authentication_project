@@ -63,8 +63,9 @@ Open your browser and navigate to:
 cpp
 
 http://127.0.0.1:5000
-```
+``
 ## 🎮 How to Use
+```
 ```
 1. **Take Attendance**
 Click on the "Take Attendance" option.
