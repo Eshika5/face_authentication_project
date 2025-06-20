@@ -24,8 +24,6 @@ The app trains a K-Nearest Neighbors (KNN) model automatically using captured fa
 A user-friendly interface to manage attendance, view records, and register users.
 
 ## 📁 Project Directory Overview
-csharp
-
 
 attendance-using-face-recognition/
 │
@@ -38,8 +36,6 @@ attendance-using-face-recognition/
 │ └── face_recognition_model.pkl # Trained KNN model
 ├── Attendance/ # Daily attendance CSV logs
 └── requirements.txt # Python dependencies
-
-
 ---
 ## ⚙️ Setup Instructions
 **1. Clone the  Repository**
