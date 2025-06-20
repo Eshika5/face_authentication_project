@@ -2,7 +2,7 @@
 Face Recognition-Based Attendance System (Flask Web App)
 This project is a Flask-powered web application designed to manage attendance using facial recognition. It allows users to mark attendance by scanning their face through a webcam, view daily attendance records, and register new users.
 
-##Key Features##
+##Key Features
 Face Recognition for Attendance:
 Users can mark their attendance by simply scanning their face using the webcam.
 
@@ -18,7 +18,7 @@ The app trains a K-Nearest Neighbors (KNN) model automatically using captured fa
 Intuitive Web Interface:
 A user-friendly interface to manage attendance, view records, and register users.
 
-##📁 Project Directory Overview##
+##📁 Project Directory Overview
 csharp
 Copy code
 attendance-using-face-recognition/
@@ -32,7 +32,7 @@ attendance-using-face-recognition/
 │   └── face_recognition_model.pkl # Trained KNN model
 ├── Attendance/                     # Daily attendance CSV logs
 └── requirements.txt                # Python dependencies
-##⚙️ Setup Instructions##
+##⚙️ Setup Instructions
 1. Clone the Repository
 bash
 Copy code
@@ -54,7 +54,7 @@ Open your browser and navigate to:
 cpp
 Copy code
 http://127.0.0.1:5000
- ##How to Use##
+ ##How to Use
 1. Take Attendance
 Click on the "Take Attendance" option.
 
@@ -74,7 +74,7 @@ Capture face images using your webcam.
 
 The system will retrain the recognition model automatically.
 
- ##Requirements##
+ ##Requirements
 Make sure the following are installed:
 
 Python 3.x
