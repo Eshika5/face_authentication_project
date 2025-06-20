@@ -26,17 +26,20 @@ A user-friendly interface to manage attendance, view records, and register users
 ## 📁 Project Directory Overview
 csharp
 
+
 attendance-using-face-recognition/
 │
-├── app.py                          # Main Flask application
-├── templates/                      # HTML templates
-│   ├── home.html
-│   └── attendance.html
+├── app.py # Main Flask application
+├── templates/ # HTML templates
+│ ├── home.html
+│ └── attendance.html
 ├── static/
-│   ├── faces/                      # Stored user face images
-│   └── face_recognition_model.pkl # Trained KNN model
-├── Attendance/                     # Daily attendance CSV logs
-└── requirements.txt                # Python dependencies
+│ ├── faces/ # Stored user face images
+│ └── face_recognition_model.pkl # Trained KNN model
+├── Attendance/ # Daily attendance CSV logs
+└── requirements.txt # Python dependencies
+
+
 ---
 ## ⚙️ Setup Instructions
 **1. Clone the  Repository**
