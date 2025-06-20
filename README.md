@@ -38,6 +38,7 @@ A user-friendly interface to manage attendance, view records, and register users
    
 ```bash
 git clone https://github.com/your-username/attendance-using-face-recognition.git
+cd attendance-using-face-recognition
 ```
 
 **2. Install Required Packages**
@@ -45,6 +46,7 @@ git clone https://github.com/your-username/attendance-using-face-recognition.git
 Make sure you have **Python 3.x** installed, then install the dependencies:
 
 ```bash
+
 ```
 pip install -r requirements.txt
 **3.Launch the Application**
