@@ -37,52 +37,55 @@ attendance-using-face-recognition/
 │   └── face_recognition_model.pkl # Trained KNN model
 ├── Attendance/                     # Daily attendance CSV logs
 └── requirements.txt                # Python dependencies
+---
 ## ⚙️ Setup Instructions
-1. **Clone the Repository**
+**1. Clone the  Repository**
    
 ```bash
 git clone https://github.com/your-username/attendance-using-face-recognition.git
-cd attendance-using-face-recognition
+```
 
-2. **Install Required Packages**
+**2. Install Required Packages**
 
-Make sure you have Python 3.x installed, then install the dependencies:
+Make sure you have **Python 3.x** installed, then install the dependencies:
 
-bash
-
+```bash
+```
 pip install -r requirements.txt
-3.**Launch the Application**
-bash
+**3.Launch the Application**
+```bash
 
 python app.py
-4. Access the Web Interface
+```
+**4. Access the Web Interface**
 Open your browser and navigate to:
 
 cpp
 
 http://127.0.0.1:5000
- ##How to Use
-1. Take Attendance
+```
+## 🎮 How to Use
+```
+1. **Take Attendance**
 Click on the "Take Attendance" option.
 
 Allow webcam access and scan your face.
 
 If recognized, your attendance is recorded.
 
-2. View Attendance Logs
+2. **View Attendance Logs**
 Go to the "Show Attendance" section.
 
 View records saved for the current day.
 
-3. Register a New User
+3. **Register a New User**
 Enter your Name and ID under "Add New User."
 
 Capture face images using your webcam.
 
 The system will retrain the recognition model automatically.
 
-
- ##Requirements
+ ## Requirements
 Make sure the following are installed:
 
 Python 3.x
