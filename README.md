@@ -25,13 +25,17 @@ A user-friendly interface to manage attendance, view records, and register users
 
 ## 📁 Project Directory Overview
 
-Project Structure
+
 app.py: Main Flask application.
+``
 templates/: Contains HTML files for rendering web pages.
 home.html
 attendance.html
+``
 static/faces/: Stores user face images for training and recognition.
+``
 static/face_recognition_model.pkl: Pre-trained KNN model for face recognition.
+``
 Attendance/: Stores daily attendance logs in CSV format.
 ---
 ## ⚙️ Setup Instructions
